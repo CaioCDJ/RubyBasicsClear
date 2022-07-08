@@ -2,6 +2,8 @@ class Pessoa
   attr_accessor :nome,:email
 end
 
+# Nao exeiste poliforfismo duplo
+
 # Heranca <
 class PessoaFisica < Pessoa
   
